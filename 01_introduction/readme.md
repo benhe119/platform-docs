@@ -74,4 +74,4 @@ To allow detection of malicious activities, PolyLogyx offers:
         in time. You can define the query and run it to see results.
 
 
-[Next >> Provisioning Polylogyx Server](02_Provisioning_Polylogyx_Server/Readme.md)
+[Next >> Provisioning Polylogyx Server](../02_Provisioning_Polylogyx_Server/Readme.md)
