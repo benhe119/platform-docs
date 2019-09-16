@@ -59,38 +59,6 @@ For more information on filters, review the  [Understanding Filters](https://git
 
 10. Click Update to save your changes. 
 
-PolyLogyx configuration options
----------------------
-The PolyLogyx configuration options are global in nature and are applied to all agents in addition to the agent configurations. The PolyLogyx platform provides the feature of 'response action' thru the same osquery extension that is used to collect endpoint telemetry. The response action can be controlled via these configuration options alongwith other osquery options.
-
-GLOBAL for all nodes vs Custom config for selected nodes
-
-Perform these steps to view or edit this configuration:
-1. Access the web interface for the server.
-2. Navigate to CONFIG MANAGEMENT > Options.
-
-   ![options_menu1](https://github.com/preetpoly/test/blob/pooja/options_menu1.png)
-
-3. Review the listed options. 
-
-   ![poly_options1](https://github.com/preetpoly/test/blob/pooja/poly_options1.png)
-
-4. Edit the option values, as needed, and click <b>update option</b>.
-   Here are the options descriptions. 
-
-| Option | Description                                                                                                                                                                                         |
-|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| custom_plgx_EnableLogging | Specifies whether to enable logging for the PolyLogyx Response Action on client. By default, set to true.   | 
-| custom_plgx_EnableSSL | Specifies whether to enable or disable SSL cert events. By default, set to true.   | 
-| custom_plgx_LogFileName | Specifies the name and location of the log file.   |
-| custom_plgx_LogLevel | Indicates the logging level for the PolyLogyx Response Action. Possible values are 0 (Trace), 1 (Debug), 2 (Info), 3 (Warning), and 4 (Error). By default, this is set to 1 (Debug).  |
-| custom_plgx_LogModeQuiet | Specifies whether the log messages are printed on console or not. Relevant only when running osquery as a console application. |
-| custom_plgx_ServerPort | Specifies the port on which the PolyLogyx server is listening. By default, this is set to 443 and should not be changed. |
-| custom_plgx_enable_respserver | This option allows you to enable or disable the response feature. By default, this is enabled. |
-| schedule_splay_percent  |  Specifies the percentage to splay the config times for scheduled queries.   |  
- 
-5. Click Update to save your changes. 
-
 
 |										|																							|
 |:---									|													   								    ---:|
