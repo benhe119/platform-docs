@@ -189,6 +189,6 @@ information, see [Uninstalling the Server](#uninstalling-the-server).
     
    For more information, see [Installing the PolyLogyx Server](#installing-the-polylogyx-server).
 
-|										|																							|
+																						|
 |:---									|													   								    ---:|
-|[Previous << Introduction](Readme.md) | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
+|[Previous << Introduction](../Readme.md) | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
