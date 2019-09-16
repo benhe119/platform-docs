@@ -1,14 +1,14 @@
 PolyLogyx Endpoint Platform - Endpoint Monitoring at scale
 ===========================================================
 
-The PolyLogyx Endpoint Visibility and Control Platform is a sophisticated, flexible and extensbile endpoint monitoring and response platform. It can be deployed in cloud or on-prem with equal ease. It provides endpoint monitoring and visibility, threat detection and incident response for Security operating Centres (SOCs). To request a trial copy of the platform, please email to open@polylogyx.com
+The PolyLogyx Endpoint Visibility and Control Platform is a sophisticated, flexible and extensible endpoint monitoring platform. It can be deployed in cloud or on-prem with equal ease. It provides endpoint monitoring and visibility and threat detection for Security operating Centres (SOCs). To request a trial copy of the platform, please email to open@polylogyx.com
 
 Intended Audience 
 ------------------
 
 This guide is designed for security analysts and Security Operations Center
 (SOC) teams who manage and maintain enterprise security. To use this guide
-effectively, you should be familiar with Microsoft Windows and Ubuntu operating
+effectively, you should be familiar with the Microsoft Windows and Ubuntu operating
 systems.
 
 Features 
@@ -72,17 +72,6 @@ To allow detection of malicious activities, PolyLogyx offers:
 
     -   *Live queries* that you can run to fetch specific information at a point
         in time. You can define the query and run it to see results.
-
-### Response
-
-To respond to a malicious activity, you can perform one or all of these
-activities:
-
--   File deletion
-
--   Process kill
-
--   Network isolation
 
 
 [Next >> Architecture Overview](01_Architecture/Readme.md)
