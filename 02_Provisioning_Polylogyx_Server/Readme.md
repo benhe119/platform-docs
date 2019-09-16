@@ -191,4 +191,4 @@ information, see [Uninstalling the Server](#uninstalling-the-server).
 
 |										|																							|
 |:---									|													   								    ---:|
-|[Previous << PolyLogyx Endpoint Platform](../Readme.md)  | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
+|[Previous << Introduction](Readme.md) | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
