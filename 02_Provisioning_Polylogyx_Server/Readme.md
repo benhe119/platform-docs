@@ -177,10 +177,9 @@ Upgrading the PolyLogyx server is manual process. Complete these steps to perfor
 
 1. Back up the certificate.crt and private.key files stored in the nginx directory in the installation
 directory. 
-2. Back up the postgres-data folder from the existing installation directory. 
-3. Uninstall the installed version. For more
+2. Uninstall the installed version. For more
 information, see [Uninstalling the Server](#uninstalling-the-server).
-4. Install the latest version of the server. When installing, instead of performing step 4:
+3. Install the latest version of the server. When installing, instead of performing step 4:
 
     1. Copy the certificate.crt and private.key files you backed up to the nginx directory. 
     
@@ -192,4 +191,4 @@ information, see [Uninstalling the Server](#uninstalling-the-server).
 
 |										|																							|
 |:---									|													   								    ---:|
-|[Previous << Architecture Overview](../01_Architecture/Readme.md)  | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
+|[Previous << PolyLogyx Endpoint Platform](../Readme.md)  | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
