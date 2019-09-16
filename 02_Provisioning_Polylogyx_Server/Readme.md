@@ -192,4 +192,4 @@ information, see [Uninstalling the Server](#uninstalling-the-server).
 																						|
 |										|																							|
 |:---									|													   								    ---:|
-|[Previous << Introduction](../01_Introduction/readme.md)  | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
+|[Previous << Introduction](https://github.com/polylogyx/platform-docs/tree/community-release/01_introduction/readme.md)  | [Next >> Provisioning the PolyLogyx Client](../03_Provisioning_Polylogyx_Client/Readme.md)|
