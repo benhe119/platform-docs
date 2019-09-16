@@ -9,8 +9,6 @@ server offers:
 
 -   Data forwarding and management
 
--   OpenC2-based out-of-band command and control
-
 -   Incident response, including proactive threat hunting and remediation
 
 This chapter includes these topics:
@@ -109,7 +107,6 @@ server.
     VT_API_KEY=<VirusTotal Api Key> 
     IBMxForceKey=<IBMxForce Key> 
     IBMxForcePass=<IBMxForce Pass>
-    APPLY_DEFAULT_POLICY=true|false  
     PURGE_DATA_DURATION=<number of days>  
     THREAT_INTEL_LOOKUP_FREQUENCY=<number of minutes>
      ```   
@@ -123,7 +120,7 @@ server.
 | VT_API_KEY       | Represents the VirusTotal API key.                                                                            | 
 | IBMxForceKey       | Represents the IBMxForce key.                                                                            | 
 | IBMxForcePass       | Specifies the IBMxForce pass.                                                                            | 
-| APPLY_DEFAULT_POLICY       | Indicates whether the default policy should be applied. Possible values are true and false.                                                                            | 
+| 
 | PURGE_DATA_DURATION       | Specifies the frequency (in number of days) for purging the data.                                                                            | 
 | THREAT_INTEL_LOOKUP_FREQUENCY       | Specifies the frequency (in minutes) for fetching threat intelligence data.                                                                            |   
     2. Ensure all the ports specified in the YAML file are open and accessible
@@ -134,7 +131,7 @@ server.
    
 6.  Run the following command to start Docker compose.
 
-    ```docker-compose up```
+    ```docker-compose -p 'plgx_docker' up```
     
     Typically, this takes approximately 10-15 minutes. The following lines appear on
     the screen when Docker starts:
